@@ -1,3 +1,5 @@
 <template>
-  <h1 class="text-2xl">Blaze</h1>
+  <div>
+    <MainLayout />
+  </div>
 </template>
