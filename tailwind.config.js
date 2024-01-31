@@ -10,13 +10,29 @@ export default {
   ],
   theme: {
     extend: {
-      background: "#0F1923",
-      backgroundGray: "#253340",
-      backgroundDarkGray: "#1A242D",
-      accent: "#A81E35",
-      accentAlt: "#04D17A",
-      functional: "#ACB1CD",
+      colors: {
+        background: "#0F1923",
+        backgroundGray: "#253340",
+        backgroundDarkGray: "#1A242D",
+        accent: "#A81E35",
+        accentAlt: "#04D17A",
+        functional: "#ACB1CD",
+      },
+
+      gridTemplateAreas: {
+        layout: [
+          "header header header",
+          "navbar content content",
+          "navbar content content",
+        ],
+      },
+      gridTemplateColumns: {
+        layout: "245px auto auto",
+      },
+      gridTemplateRows: {
+        layout: "72px auto auto",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("@savvywombat/tailwindcss-grid-areas")],
 };
