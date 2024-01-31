@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        SofiaSans: ["Sofia Sans", "sans"],
+      },
       colors: {
         background: "#0F1923",
         backgroundGray: "#253340",
@@ -34,5 +37,6 @@ export default {
       },
     },
   },
+
   plugins: [require("@savvywombat/tailwindcss-grid-areas")],
 };
