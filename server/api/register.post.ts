@@ -1,9 +1,5 @@
 import fs from "fs";
-
-interface databaseProps {
-  email: string;
-  password: string;
-}
+import databaseProps from "./struct/data";
 
 export default defineEventHandler(async (event) => {
   const { email, password } = await readBody(event);
