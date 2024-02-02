@@ -1,5 +1,5 @@
 <template>
-  <header class="grid-in-header bg-blue-800">
+  <header class="border-b border-white/20 bg-background grid-in-header">
     <h2>Header</h2>
     <p>Test</p>
   </header>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-red-500 grid-in-navbar">
+  <nav class="border-r border-white/20 bg-background px-5 py-3 grid-in-navbar">
     <ul>
       <li>Navbar Item</li>
     </ul>
