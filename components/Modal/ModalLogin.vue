@@ -8,6 +8,7 @@
       <h3>Sign in to your account</h3>
 
       <div class="flex w-full flex-col items-center">
+        <InputForm input-type="email" />
         <input type="email" class="w-full" />
 
         <div class="flex flex-col items-center">
