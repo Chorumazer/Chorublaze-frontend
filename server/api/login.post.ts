@@ -8,7 +8,7 @@ export default defineEventHandler(async (event) => {
     return { message: "email and password can't is null" };
 
   try {
-    const filePath = "./server/database/database.json";
+    const filePath: string = "./server/database/database.json";
     const fileContent = await fs.promises.readFile(filePath, "utf-8");
     const jsonData: databaseProps[] = JSON.parse(fileContent);
 
