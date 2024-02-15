@@ -1,8 +1,8 @@
 <script setup>
 defineProps({
-  inputType: String,
-  placeholderText: String,
-  forText: String,
+  inputType: { type: String, required: true },
+  placeholderText: { type: String, required: true },
+  forText: { type: String, required: true },
 });
 </script>
 
